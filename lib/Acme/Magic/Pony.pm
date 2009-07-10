@@ -1,7 +1,5 @@
 package Acme::Magic::Pony;
 
-# $Id: Pony.pm 119 2008-10-24 20:02:10Z jeff $
-
 use warnings;
 use strict;
 use CPAN;
@@ -30,11 +28,11 @@ Acme::Magic::Pony - Schwern asked for a Magic Pony!
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS

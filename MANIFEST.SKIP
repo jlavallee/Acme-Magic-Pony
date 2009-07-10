@@ -7,5 +7,6 @@ t\/01-magic-pony\.t
 ^Build$
 ^blib\/*
 \.svn\/*
+\/.*\.svn\/*
 \.tar\.gz$
 
