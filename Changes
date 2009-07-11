@@ -6,3 +6,7 @@ Revision history for Acme-Magic-Pony
 0.02    Fri Oct 24 2008
         Require CPAN 1.93 per RT bug 40192
         Fix magic pony message per RT bug 40180
+
+0.03    Fri Jul 10 2009
+        Allow newer CPAN versions
+
