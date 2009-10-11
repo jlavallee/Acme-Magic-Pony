@@ -10,7 +10,7 @@ my $builder = Module::Build->new(
     meta_merge     => {
         resources => {
             bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Magic-Pony',
-            repository => 'http://github.com/jlavallee/Acme-Magic-Pony/tree/master',
+            repository => 'http://github.com/jlavallee/Acme-Magic-Pony/',
         }
     },
     build_requires => {
