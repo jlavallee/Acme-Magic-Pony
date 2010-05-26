@@ -17,7 +17,7 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'CPAN' => '>= 1.93',
+        'CPAN' => '1.93',
     },
     add_to_cleanup      => [ 'Acme-Magic-Pony-*' ],
     create_makefile_pl => 'traditional',
