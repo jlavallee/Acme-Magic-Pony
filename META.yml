@@ -1,21 +1,25 @@
 ---
-name: Acme-Magic-Pony
-version: 0.03
+abstract: 'Schwern asked for a Magic Pony!'
 author:
   - 'Jeff Lavallee <jeff@zeroclue.com>'
-abstract: Schwern asked for a Magic Pony!
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  CPAN: '>= 1.93'
 build_requires:
   Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-Magic-Pony
 provides:
   Acme::Magic::Pony:
     file: lib/Acme/Magic/Pony.pm
     version: 0.03
-generated_by: Module::Build version 0.33
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+requires:
+  CPAN: 1.93
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Magic-Pony
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/jlavallee/Acme-Magic-Pony/
+version: 0.03
