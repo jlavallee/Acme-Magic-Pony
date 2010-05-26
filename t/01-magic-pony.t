@@ -8,7 +8,6 @@ BEGIN {
 
 diag( "Testing Acme::Magic::Pony $Acme::Magic::Pony::VERSION, Perl $], $^X" );
 
-#use Acme::please;
 use Acme::Your;
 use Acme::Rant;
 use Carp qw/cluck/;
