@@ -10,3 +10,4 @@ t\/01-magic-pony\.t
 \/.*\.svn\/*
 \.tar\.gz$
 
+^MYMETA.yml$
